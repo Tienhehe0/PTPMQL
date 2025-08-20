@@ -94,3 +94,4 @@ D:\PhatTrienPhanMemQuanLy\NetCoreMVC\obj\Debug\net9.0\refint\NetCoreMVC.dll
 D:\PhatTrienPhanMemQuanLy\NetCoreMVC\obj\Debug\net9.0\NetCoreMVC.pdb
 D:\PhatTrienPhanMemQuanLy\NetCoreMVC\obj\Debug\net9.0\NetCoreMVC.genruntimeconfig.cache
 D:\PhatTrienPhanMemQuanLy\NetCoreMVC\obj\Debug\net9.0\ref\NetCoreMVC.dll
+D:\PhatTrienPhanMemQuanLy\Netcoremvc\obj\Debug\net9.0\NetCoreMVC.sourcelink.json

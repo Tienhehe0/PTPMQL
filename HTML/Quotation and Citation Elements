@@ -1,0 +1,40 @@
+.html
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Em chào thầy giáo Phạm Quang Hiển </p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+Em là Hà Đăng Tiến 2121051337, em rất mong được thầy quý mến.
+</blockquote>
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Hà Đăng Tiến 21210513372121051337.</p>
+
+<p>Hà Đăng Tiến : <q>2121051337 </q></p>
+
+<p>Hà Đăng <abbr title="World Health Organization">TIẾN</abbr>2121051337</p>
+
+<p>Hà Đăng Tiến 2121051337.</p>
+
+<p>Hà Đăng Tiến </p>
+
+<address>
+2121051337 <br> 
+2121051337 <br>
+2121051337 <br>
+2121051337 <br>
+Vietnam 
+</address>
+
+<p>Hà Đăng Tiến 2121051337 .</p>
+<p>Hà Đăng Tiến 2121051337 </p>
+
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>Hà Đăng </cite> TIẾN 2121051337.</p>
+
+</body>
+</html>
