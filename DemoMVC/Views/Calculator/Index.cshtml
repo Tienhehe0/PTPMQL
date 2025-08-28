@@ -1,0 +1,32 @@
+@model DemoMVC.Models.Calculator
+
+<h2>Máy tính đơn giản</h2>
+
+<form asp-action="Index" method="post">
+    <label>Nhập số thứ nhất:</label>
+    <input type="number" name="Number1" step="any" required /><br /><br />
+
+    <label>Nhập số thứ hai:</label>
+    <input type="number" name="Number2" step="any" required /><br /><br />
+
+    <label>Chọn phép toán:</label>
+    <select name="Operation">
+        <option value="">--Chọn--</option>
+        <option value="Add">Tổng (+)</option>
+        <option value="Subtract">Hiệu (-)</option>
+        <option value="Multiply">Tích (×)</option>
+        <option value="Divide">Thương (÷)</option>
+    </select><br /><br />
+
+    <input type="submit" value="Tính toán" />
+</form>
+
+@if (Model != null)
+{
+    <h3>Kết quả: @Model.Result</h3>
+}
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
