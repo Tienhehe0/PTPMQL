@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PhatTrienPhanMemQuanLy\\NetCoreMVC\\NetCoreMVC.csproj": {}
+    "D:\\PTPMQL\\NetCoreMVC\\NetCoreMVC.csproj": {}
   },
   "projects": {
-    "D:\\PhatTrienPhanMemQuanLy\\NetCoreMVC\\NetCoreMVC.csproj": {
+    "D:\\PTPMQL\\NetCoreMVC\\NetCoreMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PhatTrienPhanMemQuanLy\\NetCoreMVC\\NetCoreMVC.csproj",
+        "projectUniqueName": "D:\\PTPMQL\\NetCoreMVC\\NetCoreMVC.csproj",
         "projectName": "NetCoreMVC",
-        "projectPath": "D:\\PhatTrienPhanMemQuanLy\\NetCoreMVC\\NetCoreMVC.csproj",
+        "projectPath": "D:\\PTPMQL\\NetCoreMVC\\NetCoreMVC.csproj",
         "packagesPath": "C:\\Users\\HA DANG TIEN\\.nuget\\packages\\",
-        "outputPath": "D:\\PhatTrienPhanMemQuanLy\\NetCoreMVC\\obj\\",
+        "outputPath": "D:\\PTPMQL\\NetCoreMVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HA DANG TIEN\\AppData\\Roaming\\NuGet\\NuGet.Config"
