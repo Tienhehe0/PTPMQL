@@ -7,10 +7,5 @@ namespace DemoMVC.Models
         public double Price { get; set; }
         public int Quantity { get; set; }
 
-        // Hàm tính tổng tiền
-        public double GetTotal()
-        {
-            return Price * Quantity;
-        }
     }
 }
