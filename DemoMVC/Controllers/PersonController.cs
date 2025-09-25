@@ -27,7 +27,7 @@ namespace DemoMVC.Controllers
         // POST: Person/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FullName,Address,Yearofbirth,Age")] Person person)
+        public async Task<IActionResult> Create([Bind("FullName,Address,Yearofbirth,Age,Email")] Person person)
         {
             if (ModelState.IsValid)
             {
@@ -58,7 +58,7 @@ namespace DemoMVC.Controllers
         // POST: Person/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("PersonId,FullName,Address,Yearofbirth,Age")] Person person)
+        public async Task<IActionResult> Edit(int id, [Bind("PersonId,FullName,Address,Yearofbirth,Age,Email")] Person person)
         {
             if (id != person.PersonId)
             {
@@ -120,6 +120,7 @@ namespace DemoMVC.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
+
 
         // Kiểm tra tồn tại Person
         private bool PersonExists(int id)
