@@ -1,11 +1,12 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DemoMVC.Models
 {
-   public class Employee : Person
-{
-    public string Position { get; set; } = string.Empty;
-    public double Salary { get; set; }
-}
-
+    [Table("Employees")]
+    public class Employee : Person
+    {
+        [Required]
+        public string EmployeeId { get; set; }
+    }
 }
