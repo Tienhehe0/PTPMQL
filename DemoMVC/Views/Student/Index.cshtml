@@ -1,0 +1,50 @@
+@model IEnumerable<DemoMVC.Models.Student>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h2 class="text-center">Danh sách sinh viên</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">+ Thêm sinh viên</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Mã STD</th>
+            <th>Họ và tên</th>
+            <th>Ngày sinh</th>
+            <th>Địa chỉ</th>
+            <th>Email</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="6" class="text-center text-muted">Chưa có sinh viên nào</td>
+            </tr>
+        }
+        else
+        {
+            foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.StudentID</td>
+                    <td>@s.FullName</td>
+                    <td>@s.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                    <td>@s.Address</td>
+                    <td>@s.Email</td>
+                    <td>
+                    
+                        <a asp-action="Edit" asp-route-id="@s.StudentID" class="btn btn-warning btn-sm">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@s.StudentID" class="btn btn-danger btn-sm">Xoá</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
