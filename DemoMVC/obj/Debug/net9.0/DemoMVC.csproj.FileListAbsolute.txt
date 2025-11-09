@@ -362,3 +362,15 @@ D:\PTPMQL\DemoMVC\obj\Debug\net9.0\refint\DemoMVC.dll
 D:\PTPMQL\DemoMVC\obj\Debug\net9.0\DemoMVC.pdb
 D:\PTPMQL\DemoMVC\obj\Debug\net9.0\DemoMVC.genruntimeconfig.cache
 D:\PTPMQL\DemoMVC\obj\Debug\net9.0\ref\DemoMVC.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\EPPlus.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\EPPlus.Interfaces.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\System.Security.Cryptography.Xml.dll
+D:\PTPMQL\DemoMVC\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
